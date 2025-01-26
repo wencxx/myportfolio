@@ -12,14 +12,14 @@
             <h1 class="text-5xl w-full max-w-3xl px-5 lg:px-0 text-center tracking-wide">full-stack web developer based in bacolod city.</h1>
             <p class="w-full max-w-xl text-center text-sm dark:text-gray-200 px-5 lg:px-0">I am a full-stack developer based in Bacolod City, Philippines, with experience in technologies such as VueJS, NuxtJS, NodeJS, ExpressJS, firebase and more.</p>
             <div class="flex gap-x-5">
-                <button class="bg-neutral-900 dark:bg-gray-300/30 hover:bg-neutral-700 dark:hover:bg-gray-300/20 text-white px-5 py-3 rounded-full text-sm flex items-center gap-x-1">
+                <NuxtLink to="mailto:wncbtrn@gmail.com" class="bg-neutral-900 dark:bg-gray-300/30 hover:bg-neutral-700 dark:hover:bg-gray-300/20 text-white px-5 py-3 rounded-full text-sm flex items-center gap-x-1">
                     connect with me
                     <Icon name="basil:arrow-right-outline" class="text-2xl" />
-                </button>
-                <button class="border border-neutral-300 dark:border-neutral-300/30 hover:border-neutral-500 dark:hover:border-neutral-300/20 px-5 py-3 rounded-full text-sm flex items-center gap-x-1">
+                </NuxtLink>
+                <a href="/resume.pdf" target="_blank" download="resume.pdf" class="cursor-pointer border border-neutral-300 dark:border-neutral-300/30 hover:border-neutral-500 dark:hover:border-neutral-300/20 px-5 py-3 rounded-full text-sm flex items-center gap-x-1">
                     my resume
                     <Icon name="material-symbols-light:download" class="text-2xl !z-0" />
-                </button>
+                </a>
             </div>
         </div>
     </div>
