@@ -18,7 +18,7 @@
                     <NuxtLink to="#skills" class="">skills</NuxtLink>
                 </li>
                 <li class="-mt-1">
-                    <NuxtLink class="">projects</NuxtLink>
+                    <NuxtLink to="#projects" class="">projects</NuxtLink>
                 </li>
                 <li class="-mt-1">
                     <NuxtLink class="">contact</NuxtLink>
@@ -41,7 +41,7 @@
                     <NuxtLink to="#skills" class="text-2xl text-center">skills</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink class="text-2xl text-center">projects</NuxtLink>
+                    <NuxtLink to="#projects" class="text-2xl text-center">projects</NuxtLink>
                 </li>
                 <li>
                     <NuxtLink class="text-2xl text-center">contact</NuxtLink>
