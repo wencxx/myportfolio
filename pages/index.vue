@@ -3,6 +3,7 @@
         <HeroSection />
         <AboutSection />
         <SkillsSection />
+        <CertificatesSection />
         <Footer />
     </div>
 </template>
