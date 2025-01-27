@@ -105,7 +105,7 @@ const items = [
   },
   {
     title: 'Best fortune hotel',
-    description: 'Developed a robust and user-friendly Hotel Reservation and Booking System designed to streamline the booking experience for both guests and administrators. The system features a responsive interface for seamless accessibility across devices, allowing users to search for available rooms, filter options by preferences, and make secure reservations online.',
+    description: 'Developed a robust and user-friendly Hotel Reservation and Booking System designed to streamline the booking experience for both guests and administrators. The system features a responsive interface for seamless accessibility across devices.',
     images: [
         'bfh1',
         'bfh2',
