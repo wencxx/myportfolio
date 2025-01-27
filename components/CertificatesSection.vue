@@ -1,5 +1,5 @@
 <template>
-    <div id="skills" class="w-full max-w-7xl mx-auto h-fit py-14 space-y-10 mt-10">
+    <div id="skills" class="w-full max-w-7xl mx-auto h-fit py-14 space-y-10 mt-10 lg:mt-32">
         <div class="text-center space-y-2">
             <h1 class="text-4xl">Certificates</h1>
         </div>

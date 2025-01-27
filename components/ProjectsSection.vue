@@ -1,19 +1,19 @@
 <template>
-    <div id="projects" class="w-full max-w-7xl mx-auto h-fit py-14 space-y-10 lg:mt-20">
+    <div id="projects" class="w-full max-w-7xl mx-auto h-fit space-y-10 mt-20 lg:mt-32">
         <div class="text-center space-y-2">
             <p class="text-lg">Projects</p>
             <h1 class="text-4xl">Selected Projects</h1>
         </div>
         <div class="px-10">
             <UCarousel v-slot="{ item }" :items="items" :ui="{ item: 'basis-full' }" class="rounded-lg overflow-hidden mx-auto" arrows>
-                <div class="h-[80dvh] lg:h-[50dvh] w-full flex flex-col lg:flex-row gap-x-5">
-                    <div class="h-full lg:w-1/2 rounded-2xl overflow-hidden relative border border-neutral-300 dark:border-neutral-700">
+                <div class="h-fit lg:h-[50dvh] w-full flex flex-col lg:flex-row gap-x-5">
+                    <div class="h-48 lg:h-full lg:w-1/2 rounded-2xl overflow-hidden relative border border-neutral-300 dark:border-neutral-700 bg-red-500">
                         <NuxtImg :src="`/systems/${item.images[0]}.png`" format="webp" densities="x1" alt="system" class="object-cover h-full w-full  cursor-pointer" @click.self="showImages(item.images)" /> 
                         <UTooltip class="absolute bottom-5 right-5" text="Click image to view">
                             <UBadge class="text-md">{{ item.images.length }} <Icon name="mdi:image" /></UBadge>
                         </UTooltip>
                     </div>
-                    <div class="h-full lg:w-1/2 p-5 space-y-10">
+                    <div class="lg:h-full lg:w-1/2 p-5 space-y-5 lg:space-y-10">
                         <div class="space-y-5">
                             <h1 class="uppercase font-semibold tracking-wide text-xl">{{ item.title }}</h1>
                             <p>{{ item.description }}</p>

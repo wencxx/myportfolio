@@ -2,8 +2,8 @@
     <div class="h-[5dvh] w-full max-w-7xl fixed left-1/2 -translate-x-1/2 top-5 flex items-center justify-between px-10 z-30">
         <!-- <h1 class="text-2xl font-medium">wenc</h1> -->
         <NuxtLink to="https://www.facebook.com/wncbtrn" target="_blank">
-            <NuxtImg v-if="!isDarkMode" src="/mylogopng.png" format="webp" densities="x1" class="w-20" />
-            <NuxtImg v-else src="/mylogowhite.png" format="webp" densities="x1" class="w-20" />
+            <NuxtImg v-if="!isDarkMode" src="/mylogopng.png" format="webp" densities="x1" class="w-16 lg:w-20" />
+            <NuxtImg v-else src="/mylogowhite.png" format="webp" densities="x1" class="w-16 lg:w-20" />
         </NuxtLink>
         <!-- large screens navigation -->
         <div class="h-full w-1/2 bg-white/55 dark:bg-transparent border border-neutral-300 dark:border-gray-100/20 backdrop-blur-sm rounded-full hidden lg:block">

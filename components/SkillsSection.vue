@@ -1,5 +1,5 @@
 <template>
-    <div id="skills" class="w-full max-w-7xl mx-auto h-fit py-14 space-y-10 mt-10">
+    <div id="skills" class="w-full max-w-7xl mx-auto h-fit space-y-10 mt-20 lg:mt-32">
         <div class="text-center space-y-2">
             <p class="text-lg">Technologies</p>
             <h1 class="text-4xl">Skills</h1>
