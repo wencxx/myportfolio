@@ -7,10 +7,10 @@
         <div class="px-10">
             <UCarousel v-slot="{ item }" :items="items" :ui="{ item: 'basis-full' }" class="rounded-lg overflow-hidden mx-auto" arrows>
                 <div class="h-[80dvh] lg:h-[50dvh] w-full flex flex-col lg:flex-row gap-x-5">
-                    <div class="h-full lg:w-1/2 rounded-2xl overflow-hidden relative border border-neutral-300">
-                        <NuxtImg :src="`/systems/${item.images[0]}.png`" format="webp" densities="x1" alt="system" class="object-cover h-full w-full" /> 
-                        <UTooltip class="absolute bottom-5 right-5" text="Click to view">
-                            <UBadge class="text-md cursor-pointer" @click="showImages(item.images)">{{ item.images.length }} <Icon name="mdi:image" /></UBadge>
+                    <div class="h-full lg:w-1/2 rounded-2xl overflow-hidden relative border border-neutral-300 dark:border-neutral-700">
+                        <NuxtImg :src="`/systems/${item.images[0]}.png`" format="webp" densities="x1" alt="system" class="object-cover h-full w-full  cursor-pointer" @click.self="showImages(item.images)" /> 
+                        <UTooltip class="absolute bottom-5 right-5" text="Click image to view">
+                            <UBadge class="text-md">{{ item.images.length }} <Icon name="mdi:image" /></UBadge>
                         </UTooltip>
                     </div>
                     <div class="h-full lg:w-1/2 p-5 space-y-10">
@@ -79,6 +79,29 @@ const items = [
     ],
     github: 'https://github.com/wencxx/nopsscea.git',
     link: 'https://nopsscea.vercel.app/'
+  },
+  {
+    title: 'Study buddy: your note taking app',
+    description: 'The goal of this project is to provide insight into the creation of educational materials that promote collaboration as well as sharing information by including StudyBuddy into the learning ecosystem.',
+    images: [
+        'study1',
+        'study2',
+        'study3',
+        'study4',
+        'study5',
+        'study6',
+        'study7',
+        'study8',
+    ],
+    techs: [
+        'frontend4', 
+        'frontend6', 
+        'backend1', 
+        'backend2', 
+        'backend3'
+    ],
+    github: 'https://github.com/wencxx/studybuddy.git',
+    link: 'https://studybuddy-livid.vercel.app/'
   }
 ]
 
