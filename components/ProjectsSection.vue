@@ -102,6 +102,30 @@ const items = [
     ],
     github: 'https://github.com/wencxx/studybuddy.git',
     link: 'https://studybuddy-livid.vercel.app/'
+  },
+  {
+    title: 'Best fortune hotel',
+    description: 'Developed a robust and user-friendly Hotel Reservation and Booking System designed to streamline the booking experience for both guests and administrators. The system features a responsive interface for seamless accessibility across devices, allowing users to search for available rooms, filter options by preferences, and make secure reservations online.',
+    images: [
+        'bfh1',
+        'bfh2',
+        'bfh3',
+        'bfh4',
+        'bfh5',
+        'bfh6',
+        'bfh7',
+        'bfh8',
+        'bfh9'
+    ],
+    techs: [
+        'frontend4', 
+        'frontend6', 
+        'backend1', 
+        'backend2', 
+        'backend4'
+    ],
+    github: 'https://github.com/wencxx/bestf-fortune-hotel.git',
+    link: 'https://best-fortune-hotel.vercel.app/'
   }
 ]
 
