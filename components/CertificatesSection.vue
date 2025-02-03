@@ -1,6 +1,6 @@
 <template>
     <div id="skills" class="w-full max-w-7xl mx-auto h-fit pb-14 space-y-10 mt-20 lg:mt-32">
-        <div class="text-center space-y-2">
+        <div class="text-center space-y-2" v-motion :initial="{ opacity: 0, y: 50 }" :visibleOnce="{opacity: 1, y: 0}" :duration="500">
             <h1 class="text-4xl">Certificates</h1>
         </div>
         <div class="px-10">
